@@ -1,0 +1,31 @@
+# DataHub APK Website - Robots.txt
+# Last updated: December 2024
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Allow specific directories
+Allow: /assets/
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+Allow: /assets/downloads/
+
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /logs/
+
+# Crawl delay (optional - be respectful to server)
+Crawl-delay: 1
+
+# Sitemap location
+Sitemap: https://datahubapk.com/sitemap.xml
+
+# Additional sitemaps (if needed)
+Sitemap: https://datahubapk.com/sitemap-images.xml
+
+# Host directive (preferred domain)
+Host: https://datahubapk.com

@@ -1,0 +1,198 @@
+{
+  "name": "DataHub APK - Nigeria's #1 VTU Platform",
+  "short_name": "DataHub APK",
+  "description": "Download DataHub APK latest version for Android. Get cheapest data bundles, airtime top-up, utility bill payments & offline surveys in Nigeria.",
+  "version": "2.0.0",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#667eea",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["business", "finance", "utilities"],
+  "icons": [
+    {
+      "src": "/assets/images/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/images/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/images/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/images/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/images/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/images/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/images/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/images/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/images/screenshot-mobile.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "DataHub APK Mobile Interface"
+    },
+    {
+      "src": "/assets/images/screenshot-desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "DataHub APK Desktop Interface"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Download APK",
+      "short_name": "Download",
+      "description": "Download the latest DataHub APK",
+      "url": "/#download",
+      "icons": [
+        {
+          "src": "/assets/images/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "View Features",
+      "short_name": "Features",
+      "description": "Explore DataHub APK features",
+      "url": "/#features",
+      "icons": [
+        {
+          "src": "/assets/images/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "FAQ",
+      "short_name": "FAQ",
+      "description": "Frequently Asked Questions",
+      "url": "/#faq",
+      "icons": [
+        {
+          "src": "/assets/images/icon-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://datahubapk.com"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": "navigate-existing"
+  },
+  "handle_links": "preferred",
+  "capture_links": "existing-client-navigate",
+  "file_handlers": [
+    {
+      "action": "/",
+      "accept": {
+        "application/vnd.android.package-archive": [".apk"]
+      }
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+datahub",
+      "url": "/?action=%s"
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "permissions": [
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "/sw.js",
+    "type": "module"
+  },
+  "scope_extensions": [
+    {
+      "origin": "https://datahub.ng"
+    }
+  ],
+  "iarc_rating_id": "e84b072d-71b3-4d3e-86ae-31a8ce4e53b7",
+  "description": "DataHub APK is Nigeria's leading VTU platform providing cheap data bundles, airtime top-up, utility bill payments, and offline survey collection tools. Download the latest version for Android devices.",
+  "keywords": [
+    "datahub",
+    "apk",
+    "vtu",
+    "nigeria",
+    "data bundles",
+    "airtime",
+    "utility bills",
+    "android",
+    "mobile app"
+  ],
+  "author": {
+    "name": "DataHub Nigeria",
+    "email": "support@datahub.ng",
+    "url": "https://datahub.ng"
+  },
+  "homepage_url": "https://datahubapk.com",
+  "developer": {
+    "name": "DataHub Nigeria",
+    "url": "https://datahub.ng"
+  },
+  "minimum_version": "2.0.0",
+  "platform": "web",
+  "installable": true,
+  "updatable": true,
+  "auto_update": true,
+  "update_url": "https://datahubapk.com/updates.json"
+}
