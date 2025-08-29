@@ -1,31 +1,114 @@
-# DataHub APK Website - Robots.txt
+# robots.txt for DataHub APK
 # Last updated: December 2024
 
-# Allow all crawlers
+# 常规搜索引擎规则
 User-agent: *
 Allow: /
-
-# Allow specific directories
-Allow: /assets/
-Allow: /assets/css/
-Allow: /assets/js/
-Allow: /assets/images/
-Allow: /assets/downloads/
-
-# Disallow admin or private areas (if any)
 Disallow: /admin/
 Disallow: /private/
-Disallow: /temp/
-Disallow: /logs/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /404
+Disallow: /500
+Disallow: /*.json$
 
-# Crawl delay (optional - be respectful to server)
-Crawl-delay: 1
-
-# Sitemap location
+# 网站地图
 Sitemap: https://datahubapk.com/sitemap.xml
 
-# Additional sitemaps (if needed)
-Sitemap: https://datahubapk.com/sitemap-images.xml
+# AI爬虫特定规则
+User-agent: GPTBot
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /blog/
+Allow: /products/
+Allow: /about/
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /refund.html
+Allow: /permissions.html
+Disallow: /user-content/
+Disallow: /admin/
+Disallow: /api/
 
-# Host directive (preferred domain)
-Host: https://datahubapk.com
+User-agent: anthropic-ai
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /blog/
+Allow: /products/
+Allow: /about/
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /refund.html
+Allow: /permissions.html
+Disallow: /user-content/
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: Claude-Web
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /blog/
+Allow: /products/
+Allow: /about/
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /refund.html
+Allow: /permissions.html
+Disallow: /user-content/
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: PerplexityBot
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /blog/
+Allow: /products/
+Allow: /about/
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /refund.html
+Allow: /permissions.html
+Disallow: /user-content/
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: GoogleOther
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /blog/
+Allow: /products/
+Allow: /about/
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /refund.html
+Allow: /permissions.html
+Disallow: /user-content/
+Disallow: /admin/
+Disallow: /api/
+
+User-agent: DuckAssistBot
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /blog/
+Allow: /products/
+Allow: /about/
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /refund.html
+Allow: /permissions.html
+Disallow: /user-content/
+Disallow: /admin/
+Disallow: /api/
+
+# Googlebot特殊规则
+User-agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+Disallow: /404
+Disallow: /500
+Disallow: /*.json$
+Allow: /llms.txt
+Allow: /llms-full.txt

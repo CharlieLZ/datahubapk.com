@@ -1,0 +1,33 @@
+# DataHub APK
+
+> DataHub APK is Nigeria's leading VTU (Virtual Top-Up) platform providing cheap data bundles, airtime top-up services, utility bill payments, and offline survey tools through a mobile Android application.
+
+DataHub APK serves as a comprehensive financial services platform for Nigerian users, offering competitive rates on mobile data, airtime, and utility payments while providing additional income opportunities through surveys and referrals.
+
+## 核心服务
+- [主页](https://datahubapk.com/index.html): DataHub APK官方网站，提供应用下载、功能介绍和服务概览
+- [隐私政策](https://datahubapk.com/privacy.html): 详细说明我们如何收集、使用和保护用户个人信息
+- [服务条款](https://datahubapk.com/terms.html): 使用DataHub APK服务的完整条款和条件
+- [退款政策](https://datahubapk.com/refund.html): 退款流程、条件和政策说明
+- [应用权限](https://datahubapk.com/permissions.html): 应用所需权限的详细说明和用途
+
+## 主要功能
+- [数据包购买](https://datahubapk.com/index.html#services): 提供尼日利亚各大运营商的最便宜数据包
+- [话费充值](https://datahubapk.com/index.html#services): 快速安全的手机话费充值服务
+- [水电费支付](https://datahubapk.com/index.html#services): 便捷的公用事业账单支付
+- [离线调查](https://datahubapk.com/index.html#features): 通过完成调查赚取额外收入
+- [推荐奖励](https://datahubapk.com/index.html#features): 邀请朋友使用获得奖励
+
+## 技术信息
+- [应用下载](https://datahubapk.com/index.html#download): 最新版本2.0.0 Android APK文件下载
+- [系统要求](https://datahubapk.com/index.html#download): Android 5.0及以上版本，22MB存储空间
+- [安全认证](https://datahubapk.com/index.html#features): 银行级安全加密，保护用户资金安全
+
+## 客户支持
+- [常见问题](https://datahubapk.com/index.html#faq): 解答用户常见问题和疑虑
+- [联系方式](https://datahubapk.com/index.html#contact): 客户服务联系方式和营业时间
+
+## 可选信息
+- [公司背景](https://datahubapk.com/index.html#about): DataHub在尼日利亚VTU市场的地位和成就
+- [用户评价](https://datahubapk.com/index.html#testimonials): 真实用户使用体验和评价
+- [更新日志](https://datahubapk.com/index.html#download): 应用版本更新历史和新功能说明
